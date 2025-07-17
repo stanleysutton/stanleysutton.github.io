@@ -1,71 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>stan's Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #121212;
-      color: #f2f2f2;
-    }
-    header {
-      padding: 2rem;
-      text-align: center;
-      background-color: #1e1e1e;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #cccccc;
-    }
-    .container {
-      padding: 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .link-button {
-      display: inline-block;
-      padding: 1rem 2rem;
-      background-color: #5865F2;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 2rem;
-      transition: background-color 0.3s ease;
-    }
-    .link-button:hover {
-      background-color: #4752c4;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      color: #888;
-      font-size: 0.9rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 </head>
 <body>
+  <div id="particles-js"></div>
+  <main class="container">
+    <section class="intro">
+      <div class="icon">🧠</div>
+      <h1>Stan</h1>
+      <h2>Roblox & Web Developer</h2>
+      <p>
+        Hey! I'm Stan, a Roblox developer and web dev. I love creating immersive
+        experiences and building with modern web tech. I'm currently working on
+        <strong>Essentials+</strong>, a fresh and modern retake on BAE 2.0 on Roblox.
+      </p>
+      <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank">🐱 GitHub</a>
+        <a href="https://discord.com/users/yourid" target="_blank">💬 Discord</a>
+        <a href="https://youtube.com/@yourchannel" target="_blank">📺 YouTube</a>
+      </div>
+    </section>
 
-  <header>
-    <h1>Stan – Roblox & Web Dev</h1>
-    <p>Crafting cool experiences in code and creativity.</p>
-  </header>
+    <section class="tools">
+      <h3>Languages and Tools</h3>
+      <div class="icons">
+        <span>🌐 HTML</span>
+        <span>🎨 CSS</span>
+        <span>⚙️ JavaScript</span>
+        <span>🎮 Roblox Studio</span>
+      </div>
+    </section>
 
-  <div class="container">
-    <h2>Current Project</h2>
-    <p><strong>Essentials+</strong> is my latest development—join the Discord to check it out or get involved!</p>
-    <a class="link-button" href="https://discord.gg/QvTrETf4aV" target="_blank">Join Essentials+ on Discord</a>
-  </div>
-
-  <footer>
-    &copy; 2025 – Built with 💖 in the UK
-  </footer>
-
+    <section class="project">
+      <h3>Current Project</h3>
+      <h4>Essentials+</h4>
+      <p>
+        Essentials+ is a modern reimagining of BAE 2.0, tailored for today's Roblox
+        community. It features clean UI, new commands, and a polished experience.
+      </p>
+    </section>
+  </main>
 </body>
 </html>

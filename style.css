@@ -68,3 +68,30 @@ h4 {
   margin-bottom: 0.5rem;
   color: #0af;
 }
+
+.job-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.job-card.open .job-body {
+  max-height: 1000px;
+  margin-top: 0.5em;
+}

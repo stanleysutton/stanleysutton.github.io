@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Employment</title>
+  <title>Employment Hub</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
@@ -13,12 +13,12 @@
   <div id="particles-js"></div>
 
   <header class="portal-header">
-    <h1>🧩 Employment Portal</h1>
+    <h1>🧩 Employment Hub</h1>
     <p>Explore open roles and opportunities to work on Roblox projects.</p>
   </header>
 
   <main class="container">
-    <section class="intro">
+    <section class="intro card">
       <div class="icon">🛠️</div>
       <h1>Hiring: UI Scripter</h1>
       <h2>Roblox Developer - Scripting Responsive UI</h2>
@@ -28,11 +28,11 @@
       <a href="https://docs.google.com/document/d/127Nue_P1dQf03rMAaCgW-WPbtK7fRdzMzKVXBIDkDu4/edit?usp=drivesdk" target="_blank">📄 View Examples</a>
     </section>
 
-    <section class="jobs">
+    <section class="jobs card">
       <h3>Open Position</h3>
 
-      <div class="job-card" onclick="toggleJob(this)">
-        <div class="job-header">
+      <div class="job-card">
+        <div class="job-header" onclick="toggleJob(this.parentElement)">
           <h4>UI Scripter (Tween-Focused)</h4>
           <span>🔽</span>
         </div>
@@ -49,7 +49,7 @@
           </ul>
           <p><strong>Bonus:</strong> You’ve built UI frameworks or tween utility modules.</p>
 
-          <form id="applicationForm" action="https://formsubmit.co/employment@stan.is-a.dev" method="POST" class="job-form">
+          <form id="applicationForm" action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST" class="job-form">
             <input type="hidden" name="_subject" value="New UI Scripter Application">
             <input type="hidden" name="_template" value="box">
             <input type="hidden" name="_captcha" value="false">

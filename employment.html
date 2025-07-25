@@ -11,6 +11,12 @@
 </head>
 <body>
   <div id="particles-js"></div>
+
+  <header class="portal-header">
+    <h1>🧩 Employment Portal</h1>
+    <p>Explore open roles and opportunities to work on Roblox projects.</p>
+  </header>
+
   <main class="container">
     <section class="intro">
       <div class="icon">🛠️</div>
@@ -24,6 +30,7 @@
 
     <section class="jobs">
       <h3>Open Position</h3>
+
       <div class="job-card" onclick="toggleJob(this)">
         <div class="job-header">
           <h4>UI Scripter (Tween-Focused)</h4>
@@ -41,6 +48,31 @@
             <li>Experience debugging UI across platforms (PC, tablet, mobile)</li>
           </ul>
           <p><strong>Bonus:</strong> You’ve built UI frameworks or tween utility modules.</p>
+
+          <form id="applicationForm" action="https://formsubmit.co/employment@stan.is-a.dev" method="POST" class="job-form">
+            <input type="hidden" name="_subject" value="New UI Scripter Application">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_captcha" value="false">
+
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" required />
+
+            <label for="roblox">Roblox Username</label>
+            <input type="text" name="Roblox Username" id="roblox" required />
+
+            <label for="discord">Discord Username</label>
+            <input type="text" name="Discord Username" id="discord" required />
+
+            <label for="portfolio">Portfolio Link</label>
+            <input type="url" name="Portfolio Link" id="portfolio" placeholder="https://yourportfolio.com" />
+
+            <button type="submit" id="submitButton">📨 Apply Now</button>
+            <p id="cooldownMessage" style="display: none; color: #ff5555;">You’ve already applied recently. Please wait before submitting again.</p>
+          </form>
+
         </div>
       </div>
     </section>

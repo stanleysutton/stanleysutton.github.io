@@ -2,13 +2,23 @@
   "Categories": {
     "Essentials+ Admin": [
       {
-        "ID": "XYZ-12EBX-FYT",
-        "Name": "Classic",
-        "Creator": "Stanley",
-        "Description": "The original Essentials+ UI",
-        "Image": "rbxassetid://1234567890",
+        "ID": "THMR-001",
+        "Name": "Clasic",
+        "Creator": "Essentials+",
+        "Description": "A sleek, modern theme for Essentials+ Admin.",
+        "Image": "rbxassetid://81251171555272",
         "Enabled": true
       }
     ],
+    "Test": [
+      {
+        "ID": "THMR-002",
+        "Name": "Test",
+        "Creator": "Test",
+        "Description": "Test",
+        "Image": "rbxassetid://79058719678241",
+        "Enabled": true
+      }
+    ]
   }
 }

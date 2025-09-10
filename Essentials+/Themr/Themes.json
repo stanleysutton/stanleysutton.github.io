@@ -1,0 +1,13 @@
+{
+  "Themes": [
+    {
+      "ID": "THMR-001",
+      "Name": "Template",
+      "Creator": "Essentials+",
+      "Description": "This is a template Themr for testing.",
+      "Image": "rbxassetid://81251171555272",
+      "Category": "Essentials+ Admin",
+      "Enabled": true
+    },
+  ]
+}

@@ -1,13 +1,14 @@
 {
-  "Themes": [
-    {
-      "ID": "THMR-001",
-      "Name": "Template",
-      "Creator": "Essentials+",
-      "Description": "This is a template Themr for testing.",
-      "Image": "rbxassetid://81251171555272",
-      "Category": "Essentials+ Admin",
-      "Enabled": true
-    },
-  ]
+  "Categories": {
+    "Essentials+ Admin": [
+      {
+        "ID": "XYZ-12EBX-FYT",
+        "Name": "Classic",
+        "Creator": "Stanley",
+        "Description": "The original Essentials+ UI",
+        "Image": "rbxassetid://1234567890",
+        "Enabled": true
+      }
+    ],
+  }
 }
